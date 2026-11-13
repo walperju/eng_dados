@@ -1,4 +1,4 @@
-SELECT status, count(*) AS pedidos
+SELECT status,canal count(*) AS pedidos
 FROM pedidos
-GROUP BY status
+GROUP BY status, canal
 ORDER BY pedidos DESC

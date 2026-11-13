@@ -1,0 +1,43 @@
+# ==========================================
+# 1. AMBIENTES E ARQUIVOS GERADOS (PYTHON)
+# ==========================================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# 2. SEGREDOS, CREDENCIAIS E CERTIFICADOS
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*credentials*.json
+
+# ==========================================
+# 3. DADOS E ARQUIVOS PESADOS
+# ==========================================
+dados/
+data/
+*.parquet
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+
+# ==========================================
+# 4. SISTEMA E EDITORES
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
